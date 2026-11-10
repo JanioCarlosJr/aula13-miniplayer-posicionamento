@@ -7,17 +7,17 @@
 .cabecalho {
     background-color: #030303;
     position: sticky;
-
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #030303;
+    background-color: #030303;    
 }
 
 header {
     height: 50px;
     width: 100%;
+    border: 1px solid #383838;
 }
 
 #logo-ytmusic {
@@ -56,18 +56,18 @@ p {
 
 
 
-
 .player-musica {
-    background-color: #3a3a3a;
-    position: relative; 
-    width: 60%;
-    height: 350px;
-    margin: 0 auto;    
+    background-color: #1f1f1f;
+    border: 1px solid #383838;
+    position: relative;     
+    width: 50%;
+    height: 500px;
+    margin: 15px auto;    
 }
 
 #capa-album {
     position: absolute;
-    width: 90%;
+    width: 90%;       
     left: 50%;
     top: 50%;
     transform: translate( -50%, -50%);
@@ -139,7 +139,6 @@ p {
     bottom: 16px; 
     left: 16px; 
     z-index: 10;
-
 }
 
 .button-like {
@@ -153,6 +152,7 @@ p {
     bottom: 16px; 
     right: 16px; 
     z-index: 10;
+    cursor: pointer;
 }
 
 
