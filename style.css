@@ -11,7 +11,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #030303;    
+    background-color: #030303;
 }
 
 header {
@@ -25,27 +25,27 @@ header {
     width: 25px;
     left: 10%;
     top: 50%;
-    transform: translate( 0, -50%);
+    transform: translate(0, -50%);
 }
 
 .logo-music {
     position: absolute;
-    font-weight: 700;    
+    font-weight: 700;
     left: 12%;
     top: 50%;
-    transform: translate( 0, -50%);
+    transform: translate(0, -50%);
 }
 
 .status {
     position: absolute;
     font-size: 0.8rem;
     padding: 7px;
-    background-color: #3a3a3a ;
+    background-color: #3a3a3a;
     border-radius: 25px;
     border: 1px;
     right: 12%;
     top: 50%;
-    transform: translate( 0, -50%);
+    transform: translate(0, -50%);
 }
 
 p {
@@ -59,32 +59,32 @@ p {
 .player-musica {
     background-color: #1f1f1f;
     border: 1px solid #383838;
-    position: relative;     
+    position: relative;
     width: 50%;
     height: 500px;
-    margin: 15px auto;    
+    margin: 15px auto;
 }
 
 #capa-album {
     position: absolute;
-    width: 90%;       
+    width: 90%;
     left: 50%;
     top: 50%;
-    transform: translate( -50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 
 .resolucao-video {
-    position: absolute;    
+    position: absolute;
     background-color: #030303;
     padding: 5px;
     border-radius: 15px;
     border: 1px solid white;
     width: 80px;
-    height: 30px;   
-    top: 16px; 
-    left: 16px; 
-    z-index: 10; 
+    height: 30px;
+    top: 16px;
+    left: 16px;
+    z-index: 10;
 }
 
 .resolucao-video p {
@@ -100,19 +100,19 @@ p {
     position: absolute;
     left: 8%;
     top: 50%;
-    transform: translate( 0, -50% );
+    transform: translate(0, -50%);
 }
 
 .video-musica {
-    position: absolute;    
-    background-color: rgb(255,255,255, 0.3);
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.3);
     border-radius: 15px;
     border: 1px solid white;
     width: 115px;
-    height: 30px;  
-    top: 16px; 
-    right: 16px; 
-    z-index: 10; 
+    height: 30px;
+    top: 16px;
+    right: 16px;
+    z-index: 10;
 }
 
 .video-musica p {
@@ -123,11 +123,11 @@ p {
     font-weight: 700;
 }
 
-.icone-musica-video{
+.icone-musica-video {
     width: 15px;
     position: absolute;
     left: 8%;
-    top: 25%    
+    top: 25%
 }
 
 .timestamp {
@@ -136,8 +136,8 @@ p {
     padding: 5px;
     background-color: #030303;
     border-radius: 15px;
-    bottom: 16px; 
-    left: 16px; 
+    bottom: 16px;
+    left: 16px;
     z-index: 10;
 }
 
@@ -147,13 +147,56 @@ p {
     font-size: 0.7rem;
     background-color: #030303;
     border-radius: 15px;
-    border: 0.5px solid red;   
+    border: 0.5px solid red;
     color: red;
-    bottom: 16px; 
-    right: 16px; 
+    bottom: 16px;
+    right: 16px;
     z-index: 10;
     cursor: pointer;
 }
 
 
 
+
+.control-player {
+    background-color: #1f1f1f;
+    border: 1px solid #383838;
+    position: relative;
+    width: 50%;
+    height: 200px;
+    margin: -15px auto;
+}
+
+.nome-musica {
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.info-musica {
+    position: absolute;
+    left: 3%;
+    top: 33%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.time-stamp-tocado {
+    position: absolute;
+    background-color: red;    
+    width: 72%;
+    height: 3px;
+    top: 60%;
+    z-index: 10;
+}
+
+.time-stamp-total {
+    position: absolute;
+    background-color: #686767;
+    width: 100%;
+    height: 3px;
+    top: 60%;
+}
