@@ -6,12 +6,13 @@
 
 .cabecalho {
     background-color: #030303;
-    position: relative;
+    position: sticky;
 
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #030303;
 }
 
 header {
@@ -51,3 +52,108 @@ p {
     color: white;
     position: absolute;
 }
+
+
+
+
+
+.player-musica {
+    background-color: #3a3a3a;
+    position: relative; 
+    width: 60%;
+    height: 350px;
+    margin: 0 auto;    
+}
+
+#capa-album {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+}
+
+
+.resolucao-video {
+    position: absolute;    
+    background-color: #030303;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 80px;
+    height: 30px;   
+    top: 16px; 
+    left: 16px; 
+    z-index: 10; 
+}
+
+.resolucao-video p {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 0.8rem;
+}
+
+.icone-resolucao {
+    width: 20px;
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translate( 0, -50% );
+}
+
+.video-musica {
+    position: absolute;    
+    background-color: rgb(255,255,255, 0.3);
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 115px;
+    height: 30px;  
+    top: 16px; 
+    right: 16px; 
+    z-index: 10; 
+}
+
+.video-musica p {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.icone-musica-video{
+    width: 15px;
+    position: absolute;
+    left: 8%;
+    top: 25%    
+}
+
+.timestamp {
+    position: absolute;
+    font-size: 0.7rem;
+    padding: 5px;
+    background-color: #030303;
+    border-radius: 15px;
+    bottom: 16px; 
+    left: 16px; 
+    z-index: 10;
+
+}
+
+.button-like {
+    position: absolute;
+    padding: 5px;
+    font-size: 0.7rem;
+    background-color: #030303;
+    border-radius: 15px;
+    border: 0.5px solid red;   
+    color: red;
+    bottom: 16px; 
+    right: 16px; 
+    z-index: 10;
+}
+
+
+
